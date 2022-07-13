@@ -1,4 +1,4 @@
-body, h1, h2, h3, p, ul, li, a {
+body, h1, h2, h3, h4, p, ul, li, a {
   margin: 0px;
   padding: 0px;
 }
@@ -25,4 +25,8 @@ a {
 img {
   max-width: 100%;
   display: block;
+}
+
+img[src$=".jpg"] {
+  border-radius: 4px;
 }
